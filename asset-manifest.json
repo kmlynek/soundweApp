@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/soundweApp/static/css/main.1b8305ae.css",
-    "main.js": "/soundweApp/static/js/main.ada9edb0.js",
+    "main.js": "/soundweApp/static/js/main.0e300176.js",
     "static/media/videoBg.mp4": "/soundweApp/static/media/videoBg.595d6c0d91c799e61847.mp4",
     "static/media/guitarist1.jpg": "/soundweApp/static/media/guitarist1.0f8e73878e7df14274ea.jpg",
     "static/media/pianist1.jpg": "/soundweApp/static/media/pianist1.e4757abbd319f15ac549.jpg",
@@ -12,10 +12,10 @@
     "static/media/guitarist2.jpg": "/soundweApp/static/media/guitarist2.1d168c80346f92221694.jpg",
     "index.html": "/soundweApp/index.html",
     "main.1b8305ae.css.map": "/soundweApp/static/css/main.1b8305ae.css.map",
-    "main.ada9edb0.js.map": "/soundweApp/static/js/main.ada9edb0.js.map"
+    "main.0e300176.js.map": "/soundweApp/static/js/main.0e300176.js.map"
   },
   "entrypoints": [
     "static/css/main.1b8305ae.css",
-    "static/js/main.ada9edb0.js"
+    "static/js/main.0e300176.js"
   ]
 }
