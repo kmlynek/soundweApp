@@ -18,19 +18,18 @@ import InstrumentyDete from "./pages/InstrumentyDete";
 import InstrumentyPerkusyjne from "./pages/InstrumentyPerkusyjne";
 import InstrumentyKlawiszowe from "./pages/InstrumentyKlawiszowe";
 import { UserProvider } from "./components/UserContext";
-import  Warszawa from "./pages/Warszawa";
-import  Krakow  from "./pages/Krakow";
-import  Gdansk  from "./pages/Gdansk";
-import  Wroclaw  from "./pages/Wroclaw";
-import  Poznan  from "./pages/Poznan";
-import  Rzeszow  from "./pages/Rzeszow";
+import Warszawa from "./pages/Warszawa";
+import Krakow from "./pages/Krakow";
+import Gdansk from "./pages/Gdansk";
+import Wroclaw from "./pages/Wroclaw";
+import Poznan from "./pages/Poznan";
+import Rzeszow from "./pages/Rzeszow";
 import RegisterForm from "./components/RegisterForm";
-
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <UserProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/soundweApp">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<App />} />
@@ -53,7 +52,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <Route path="ogloszenia/gdansk" element={<Gdansk />} />
             <Route path="ogloszenia/wroclaw" element={<Wroclaw />} />
             <Route path="ogloszenia/poznan" element={<Poznan />} />
-            <Route path="ogloszenia/rzeszow" element={<Rzeszow/>} />
+            <Route path="ogloszenia/rzeszow" element={<Rzeszow />} />
           </Route>
         </Routes>
       </BrowserRouter>

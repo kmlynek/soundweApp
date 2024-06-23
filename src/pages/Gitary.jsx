@@ -11,7 +11,7 @@ const Gitary = () => {
   return (
     <Container style={{background: "#111111"}}>
       <h2>
-        <span style={{ color: "#f8b296" }}>Gitarzyści</span>
+        <span style={{ color: "#f8b296" }}>Gitary</span>
       </h2>
       <Row>
         {gitaryUsers.map((user) => (

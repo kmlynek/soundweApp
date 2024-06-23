@@ -11,7 +11,7 @@ const InstrumentyKlawiszowe = () => {
   return (
     <Container style={{background: "#111111"}}>
       <h2>
-        <span style={{ color: "#f8b296" }}>Pianiści</span>
+        <span style={{ color: "#f8b296" }}>Instrumenty klawiszowe</span>
       </h2>
       <Row>
         {klawiszoweUsers.map((user) => (

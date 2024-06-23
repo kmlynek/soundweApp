@@ -11,7 +11,7 @@ const Smyczkowe = () => {
   return (
     <Container style={{background: "#111111"}}>
       <h2>
-        <span style={{ color: "#f8b296" }}>Smyczki</span>
+        <span style={{ color: "#f8b296" }}>Instrumenty smyczkowe</span>
       </h2>
       <Row>
         {smyczkoweUsers.map((user) => (

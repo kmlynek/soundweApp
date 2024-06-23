@@ -11,7 +11,7 @@ const Wokal = () => {
   return (
     <Container style={{background: "#111111"}}>
       <h2>
-        <span style={{ color: "#f8b296" }}>Wokaliści</span>
+        <span style={{ color: "#f8b296" }}>Wokal</span>
       </h2>
       <Row>
         {wokalUsers.map((user) => (

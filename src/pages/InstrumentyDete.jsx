@@ -11,7 +11,7 @@ const Dete = () => {
   return (
     <Container style={{background: "#111111"}}>
       <h2>
-        <span style={{ color: "#f8b296" }}>Dęciaki</span>
+        <span style={{ color: "#f8b296" }}>Instrumenty dęte</span>
       </h2>
       <Row>
         {deteUsers.map((user) => (
