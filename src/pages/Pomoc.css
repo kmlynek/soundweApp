@@ -1,0 +1,31 @@
+.pomocBackground {
+  background-color: #111111;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;    
+  margin-bottom: 50px; 
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+    
+  .pomocBackground .accordion-button:not(.collapsed) {
+    background-color: #2a4d6f;
+    color: #fff;
+  }
+  
+  .pomocBackground .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .pomocBackground .accordion-item {
+    background-color: #1a1a1a;
+  }
+  
+  .pomocBackground .accordion-body {
+    color: #ffffff;
+  }
+  

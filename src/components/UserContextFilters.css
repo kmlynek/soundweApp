@@ -1,0 +1,38 @@
+
+.container-custom {
+    background: #111111;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .btnForm {
+    margin-right: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .user-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+  
+  .user-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .user-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .user-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  

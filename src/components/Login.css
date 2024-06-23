@@ -1,0 +1,28 @@
+.pageBackground {
+  background-color: #111111;
+}
+
+.btnLogin button:hover {
+  box-shadow: 0 0 25px #f8b296; 
+  transition: 0.2s;
+}
+.divider {
+  margin: 2rem 0;
+}
+
+
+.divider-content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.7em;
+  font-size: 0.8rem;
+  font-weight: 200;
+  color: #999;
+  background-color: #111111;
+}
+
+a {
+  text-decoration: none;
+}

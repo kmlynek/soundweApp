@@ -1,0 +1,32 @@
+.onas-background {
+  background-color: #111111;
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+.onas-header {
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.onas-card {
+  box-shadow: 0 14px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.onas-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.onas-card-title {
+  font-size: 1.50em;
+  font-weight: bold;
+}
+
+.onas-card-text {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
